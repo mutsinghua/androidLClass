@@ -1,1 +1,1 @@
-include ':sizechange', ':materialtheme', ':sizechange', ':widthanimation', ':moveanimation', ':EaseInterpolatorLib', ':sceneanimation'
+include ':sizechange', ':materialtheme', ':sizechange', ':widthanimation', ':moveanimation', ':EaseInterpolatorLib', ':sceneanimation', ':simpletransitionanimation'
