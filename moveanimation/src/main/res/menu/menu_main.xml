@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_ball1" android:title="Ball1"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_ball2" android:title="Ball2"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_ball3" android:title="Ball3"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

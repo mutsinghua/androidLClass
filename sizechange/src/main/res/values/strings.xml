@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SizeChange</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="draw_open">open</string>
+    <string name="draw_close">close</string>
+</resources>
