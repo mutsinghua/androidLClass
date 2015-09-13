@@ -3,6 +3,7 @@ package com.win16.sceneanimation;
 import android.app.Activity;
 import android.os.Bundle;
 import android.transition.AutoTransition;
+import android.transition.ChangeClipBounds;
 import android.transition.Scene;
 import android.transition.TransitionInflater;
 import android.transition.TransitionManager;
@@ -33,6 +34,7 @@ public class MainActivity extends Activity {
 //        autoTransition = new AutoTransition();
 //        autoTransition.setInterpolator(new EaseBackInInterpolator());
 //        autoTransition.setDuration(1000);
+
         goToScene2(null);
     }
 
