@@ -27,7 +27,8 @@ public class TransitionFirstActivity extends Activity {
         mFabButton = findViewById(R.id.fab_button);
         mHeader = findViewById(R.id.activity_transition_header);
 
-        Explode slideExitTransition = new Explode();
+        Slide slideExitTransition = new Slide();
+        slideExitTransition.setSlideEdge(Gravity.LEFT);
         slideExitTransition.excludeTarget(android.R.id.navigationBarBackground, true);
         slideExitTransition.excludeTarget(android.R.id.statusBarBackground, true);
         slideExitTransition.excludeTarget(R.id.activity_transition_header, true);
