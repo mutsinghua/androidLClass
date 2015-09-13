@@ -45,7 +45,7 @@ public class ColorActivity extends Activity {
         @Override
         public void onAnimationEnd(Animator animation) {
 
-            GUIUtils.hideRevealEffect(revealView, cx, cy, 1920);
+            GUIUtils.hideRevealEffect(revealView, cx, cy, revealView.getHeight());
             header.setBackgroundColor(primaryColor);
             getWindow().setStatusBarColor(primaryColor);
         }

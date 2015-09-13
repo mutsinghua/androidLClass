@@ -31,8 +31,8 @@ public class TransitionFirstActivity extends Activity {
         slideExitTransition.setSlideEdge(Gravity.LEFT);
         slideExitTransition.excludeTarget(android.R.id.navigationBarBackground, true);
         slideExitTransition.excludeTarget(android.R.id.statusBarBackground, true);
-        slideExitTransition.excludeTarget(R.id.activity_transition_header, true);
         getWindow().setExitTransition(slideExitTransition);
+
     }
 
     public void onFabPressed(View view) {

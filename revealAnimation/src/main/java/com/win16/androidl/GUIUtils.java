@@ -35,6 +35,7 @@ public class GUIUtils {
 
         anim.setDuration(350);
 
+
         // make the view invisible when the animation is done
         anim.addListener(new AnimatorListenerAdapter() {
             @Override
@@ -64,5 +65,11 @@ public class GUIUtils {
     }
 
 
+    static int[] getCenter(View view) {
+        int [] location = new int[2];
 
+        location[0] = (view.getWidth() / 2);
+        location[1] =  (view.getHeight() / 2);
+        return location;
+    }
 }

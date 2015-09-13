@@ -67,6 +67,7 @@ public class TransitionSecondActivity extends Activity {
 
                         super.onAnimationEnd(animation);
                         finishAfterTransition();
+//                        finish();
                     }
                 });
         }
